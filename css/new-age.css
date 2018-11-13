@@ -162,6 +162,7 @@ p.n-p {
     text-align: center;
 }
 
+/* MOVED TO @media (min-width: 768px), pq al movil no tinguin efecte.
 .right {
     padding-right: 2.5rem;
 }
@@ -169,7 +170,7 @@ p.n-p {
 .left {
     padding-left: 2.5rem;
 }
-
+*/
 .text-description {
     display: flex;
     align-items: center;
@@ -289,7 +290,7 @@ p.n-p {
     content: url("http://2018.igem.org/wiki/images/2/21/T--BioIQS-Barcelona--2018_proveta.png");
     position: absolute;
     bottom: 0;
-    right: -55px;
+    right: 0px;
 }
 
 .relative {
@@ -1120,6 +1121,14 @@ a:hover {
     .block-sept-b {
         padding-bottom: 2.4rem;
     }
+    .right {
+        padding-right: 2.5rem;
+    }
+    
+    .left {
+        padding-left: 2.5rem;
+    }
+    
 }
 
 @media (min-width: 992px) {
